@@ -1,0 +1,48 @@
+{
+  "name": "lambda-node-backend-template",
+  "version": "1.0.0",
+  "description": "Backend template for deploy Lambda functions with Node.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "serve:development": "sls offline start --noTimeout"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcomoauro/lambda-node-backend-template.git"
+  },
+  "keywords": [
+    "template",
+    "backend",
+    "node.js",
+    "koa.js"
+  ],
+  "author": "Marco Moauro <marcomoauro@hotmail.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcomoauro/lambda-node-backend-template/issues"
+  },
+  "homepage": "https://github.com/marcomoauro/lambda-node-backend-template#readme",
+  "dependencies": {
+    "@koa/cors": "5.0.0",
+    "@koa/router": "12.0.1",
+    "axios": "1.6.8",
+    "jsonwebtoken": "9.0.2",
+    "koa": "2.15.3",
+    "koa-better-json": "2.5.0",
+    "koa-better-log": "1.0.5",
+    "koa-body": "6.0.1",
+    "lodash": "4.17.21",
+    "luxon": "^3.4.4",
+    "nano-id": "1.1.0",
+    "p-queue": "8.0.1",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "serverless": "^4.1.9",
+    "serverless-offline": "^13.6.0"
+  }
+}
