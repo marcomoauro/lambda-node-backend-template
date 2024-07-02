@@ -1,18 +1,24 @@
 org: implementing
 service: lambda-node-backend-template
 
+useDotenv: true
+
 provider:
   name: aws
   runtime: nodejs20.x
   region: eu-west-2
+  environment:
+    NODE_ENV: production
+    FOO: ${env:FOO}
 
 plugins:
+  - serverless-dotenv-plugin
   - serverless-offline
 
 functions:
   app:
     handler: lambda.handler
     events:
-      - http:
+      - httpApi:
           path: /{proxy+}
           method: ANY

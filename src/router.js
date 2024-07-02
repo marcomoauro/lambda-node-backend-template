@@ -11,6 +11,6 @@ router.get('/healthcheck', routeToFunction(healthcheck));
 router.get('/errors/422', routeToFunction(throw422));
 router.get('/errors/500', routeToFunction(throw500));
 
-router.get('/ping', routeToFunction(pong));
+router.get('/api/ping', routeToFunction(pong));
 
 export default router;

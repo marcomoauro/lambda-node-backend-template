@@ -7,7 +7,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "serve:development": "sls offline start --noTimeout"
+    "serve:development": "sls offline start --noTimeout --stage development"
   },
   "repository": {
     "type": "git",
@@ -41,8 +41,7 @@
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0",
-    "serverless": "^4.1.9",
+    "serverless-dotenv-plugin": "^6.0.0",
     "serverless-offline": "^13.6.0"
   }
 }
