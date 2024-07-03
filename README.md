@@ -1,6 +1,6 @@
-# Backend template for deploy Lambda functions with Node.js
+# Deploy Koa.js server on a Lambda function using Serverless Framework
 
-Backend template for deploy Lambda functions with Node.js and Serverless Framework.
+Backend template to deploy Koa.js server on a Lambda functions with Node.js and Serverless Framework.
 
 ## Requirements
 

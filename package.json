@@ -1,7 +1,7 @@
 {
   "name": "lambda-node-backend-template",
   "version": "1.0.0",
-  "description": "Backend template for deploy Lambda functions with Node.js",
+  "description": "Deploy Koa.js server on a Lambda function using Serverless",
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -14,10 +14,12 @@
     "url": "git+https://github.com/marcomoauro/lambda-node-backend-template.git"
   },
   "keywords": [
-    "template",
-    "backend",
-    "node.js",
-    "koa.js"
+    "deploy",
+    "koa.js",
+    "server",
+    "aws",
+    "lambda",
+    "serverless"
   ],
   "author": "Marco Moauro <marcomoauro@hotmail.it>",
   "license": "ISC",
@@ -29,7 +31,6 @@
     "@koa/cors": "5.0.0",
     "@koa/router": "12.0.1",
     "axios": "1.6.8",
-    "dotenv": "^16.4.5",
     "jsonwebtoken": "9.0.2",
     "koa": "2.15.3",
     "koa-better-json": "2.5.0",
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "dotenv-cli": "^7.4.2",
+    "dotenv": "^16.4.5",
     "serverless-offline": "^13.6.0"
   }
 }
