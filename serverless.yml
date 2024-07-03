@@ -19,3 +19,7 @@ functions:
       - httpApi:
           path: /{proxy+}
           method: ANY
+
+custom:
+  serverless-offline:
+    reloadHandler: true

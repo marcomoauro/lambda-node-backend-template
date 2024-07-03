@@ -43,8 +43,8 @@
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
-    "dotenv-cli": "^7.4.2",
     "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.4.2",
     "serverless-offline": "^13.6.0"
   }
 }
