@@ -1,8 +1,6 @@
 org: implementing
 service: lambda-node-backend-template
 
-useDotenv: true
-
 provider:
   name: aws
   runtime: nodejs20.x
