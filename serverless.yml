@@ -12,7 +12,6 @@ provider:
     FOO: ${env:FOO}
 
 plugins:
-  - serverless-dotenv-plugin
   - serverless-offline
 
 functions:
